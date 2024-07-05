@@ -1,0 +1,70 @@
+body{
+   background-color: #1F1F1F;
+   font-family: "Inter", sans-serif;   
+}
+
+#mainBox{
+    display: flex;
+    flex-direction: row;
+}
+
+#menuLateral {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 263px;
+    height: 1024px;
+    left: 0px;
+    top: 0px;
+    background: #000000;
+    background-repeat: no-repeat;
+}
+
+#abas{
+    margin-top: 75px;
+}
+
+#menuLateral div{
+    color: #CCC;
+}
+
+#logoBox{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+}
+
+#menuLateral #logo{
+    color: #FFF;
+}
+
+#artistasBox{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+#musicasCurtidasBox {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+#logoutBox {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-bottom: 75px;
+}
+
+
+
+
+
+
+
+
+
+
