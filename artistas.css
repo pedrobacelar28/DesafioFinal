@@ -1,11 +1,8 @@
 body{
-   background-color: #1F1F1F;
-   font-family: "Inter", sans-serif;   
-}
-
-#mainBox{
-    display: flex;
-    flex-direction: row;
+   background-color: #181818;
+   font-family: "Inter", sans-serif;
+   height: 100vh;
+   margin: 0px;
 }
 
 #menuLateral {
@@ -14,7 +11,7 @@ body{
     flex-direction: column;
     justify-content: space-between;
     width: 263px;
-    height: 1024px;
+    height: 100vh;
     left: 0px;
     top: 0px;
     background: #000000;
@@ -58,6 +55,86 @@ body{
     justify-content: center;
     margin-bottom: 75px;
 }
+
+#cardPrincipal {
+    display: flex;
+    flex-direction: column;
+    width: 1250px;
+    height: 700px;
+    align-items: center;
+    justify-content: space-between;
+    align-content: space-between;
+    position: relative;
+    left: 17.5%;
+}
+
+#cardPrincipal #banner {
+    background-color: #313131;
+    border-radius: 10px;
+    width: 196px;
+    height: 280px;
+
+}
+
+#banner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+#banner img{
+    width: 160px;
+    height: 160px;
+    border-radius: 50%;
+    position: relative;
+    bottom: 25px;
+}
+
+#cardPrincipal #categoria {
+    color: #CCC;
+    position: relative;
+    top: 20px;
+    font-size: medium;
+    font-weight: 600;
+
+}
+
+#cardPrincipal #artistaNome {
+    color: #FFF;
+    position: relative;
+    font-size: large;
+    font-weight: 600;
+
+}
+
+#titulo {
+    position: relative;
+    right: 515px;
+    top: 30px;
+    height: 30px;
+    font-weight: 700;
+    font-size: 30px;
+    color: #FFF;
+}
+
+#artistasColuna1 {
+    display: flex;
+    flex-direction: row;
+    width: 1150px;
+    justify-content: space-between;
+
+}
+
+#artistasColuna2 {
+    display: flex;
+    flex-direction: row;
+    width: 1150px;
+    justify-content: space-between;
+}
+
+
 
 
 
