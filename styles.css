@@ -1,0 +1,46 @@
+body {
+    background-color: #121212; /* Preto acinzentado */
+    color: #FFFFFF; /* Branco padrão Spotify */
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+.login-container {
+    text-align: center;
+}
+.title {
+    font-size: 3em;
+    margin-bottom: 0.5em;
+}
+.subtitle {
+    font-size: 1.5em;
+    margin-bottom: 2em;
+}
+.input-box {
+    width: 100%;
+    padding: 0.5em;
+    margin-bottom: 1em;
+    border: none;
+    border-radius: 5px;
+}
+.login-button {
+    width: 100%;
+    padding: 0.5em;
+    background-color: #1DB954; /* Verde padrão Spotify */
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-size: 1em;
+    cursor: pointer;
+    margin-bottom: 1em;
+}
+.signup-link {
+    font-size: 0.9em;
+}
+.signup-link a {
+    color: #1DB954; /* Verde padrão Spotify */
+    text-decoration: none;
+}
