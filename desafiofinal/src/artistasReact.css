@@ -1,11 +1,11 @@
-body{
-   background-color: #181818;
-   font-family: "Inter", sans-serif;
-   height: 100vh;
-   margin: 0px;
-}
-
-#menuLateral {
+body {
+    background-color: #181818;
+    font-family: "Inter", sans-serif;
+    height: 100vh;
+    margin: 0px;
+  }
+  
+  #menuLateral {
     position: absolute;
     display: flex;
     flex-direction: column;
@@ -16,55 +16,53 @@ body{
     top: 0px;
     background: #000000;
     background-repeat: no-repeat;
-}
-
-#abas{
+  }
+  
+  #abas {
     margin-top: 75px;
-}
-
-#menuLateral div{
-    color: #CCC;
-}
-
-#logoBox{
+  }
+  
+  #menuLateral div {
+    color: #ccc;
+  }
+  
+  #logoBox {
     display: flex;
     flex-direction: row;
     justify-content: center;
-
-}
-
-#menuLateral #logo{
-    color: #FFF;
+  }
+  
+  #menuLateral #logo {
+    color: #fff;
     font-size: 40px;
     font-weight: bold;
-}
-
-#artistasBox{
+  }
+  
+  #artistasBox {
     display: flex;
     flex-direction: row;
     justify-content: center;
     margin-top: 20px;
     font-weight: bolder;
-}
-
-
-#musicasCurtidasBox {
+  }
+  
+  #musicasCurtidasBox {
     display: flex;
     flex-direction: row;
     justify-content: center;
     margin-top: 15px;
     font-weight: bolder;
-}
-
-#logoutBox {
+  }
+  
+  #logoutBox {
     display: flex;
     flex-direction: row;
     justify-content: center;
     margin-bottom: 75px;
     font-weight: bolder;
-}
-
-#cardPrincipal {
+  }
+  
+  #cardPrincipal {
     display: flex;
     flex-direction: column;
     width: 1250px;
@@ -74,92 +72,73 @@ body{
     align-content: space-between;
     position: relative;
     left: 17.5%;
-}
-
-#cardPrincipal #banner {
+  }
+  
+  #cardPrincipal #banner {
     background-color: #313131;
     border-radius: 10px;
     width: 196px;
     height: 280px;
-
-}
-
-#banner {
+  }
+  
+  #banner {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-
-}
-
-#banner img{
+  }
+  
+  #banner img {
     width: 160px;
     height: 160px;
     border-radius: 50%;
     position: relative;
     bottom: 25px;
-}
-
-#cardPrincipal #categoria {
-    color: #CCC;
+  }
+  
+  #cardPrincipal #categoria {
+    color: #ccc;
     position: relative;
     top: 20px;
     font-size: medium;
     font-weight: 600;
-
-}
-
-#cardPrincipal #artistaNome {
-    color: #FFF;
+  }
+  
+  #cardPrincipal #artistaNome {
+    color: #fff;
     position: relative;
     font-size: large;
     font-weight: 600;
-
-}
-
-#titulo {
+  }
+  
+  #titulo {
     position: relative;
     right: 515px;
     top: 30px;
     height: 30px;
     font-weight: 700;
     font-size: 30px;
-    color: #FFF;
-}
-
-#artistasColuna1 {
+    color: #fff;
+  }
+  
+  #artistasColuna1 {
     display: flex;
     flex-direction: row;
     width: 1150px;
     justify-content: space-between;
-
-}
-
-#artistasColuna2 {
+  }
+  
+  #artistasColuna2 {
     display: flex;
     flex-direction: row;
     width: 1150px;
     justify-content: space-between;
-}
-
-#icones {
+  }
+  
+  #icones {
     font-size: 20px;
     margin-right: 3.5px;
     position: relative;
     top: 3.5px;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+  }
+  
