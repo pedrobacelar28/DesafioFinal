@@ -43,25 +43,67 @@ body{
     display: flex;
     flex-direction: row;
     justify-content: center;
+    align-items: center;
     margin-top: 20px;
     font-weight: bolder;
+    height: 40px;
 }
 
+#artistasBox:hover{
+    background-color: #181818;
+}
+
+#playlistDiariaBox{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-weight: bolder;
+    height: 40px;
+}
+
+#playlistDiariaBox:hover{
+    background-color: #181818;
+}
 
 #musicasCurtidasBox {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    margin-top: 15px;
+    align-items: center;
     font-weight: bolder;
+    height: 40px;
+}
+
+#musicasCurtidasBox:hover{
+    background-color: #181818;
+}
+
+#minhacontaBox{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-weight: bolder;
+    height: 40px;
+}
+
+#minhacontaBox:hover{
+    background-color: #181818;
 }
 
 #logoutBox {
     display: flex;
     flex-direction: row;
     justify-content: center;
+    align-items: center;
     margin-bottom: 75px;
     font-weight: bolder;
+    height: 40px;
+}
+
+#logoutBox:hover{
+    background-color: #181818;
 }
 
 #cardPrincipal {
@@ -90,6 +132,10 @@ body{
     align-items: center;
     justify-content: center;
 
+}
+
+#banner:hover{
+    cursor: pointer;
 }
 
 #banner img{

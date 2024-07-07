@@ -1,0 +1,88 @@
+.abertura-body {
+    background-color: #000000;
+    font-family: "Inter", sans-serif;
+    height: 100vh;
+    margin: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#mainBox {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 750px;
+    height: 420px;
+}
+
+#saudacoes {
+    font-size: 30px;
+    color: #ffffff;
+}
+
+#logo {
+    font-size: 100px;
+    color: white;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#sloganBox {
+    display: flex;
+    flex-direction: row;
+}
+
+#soundbarIcon {
+    width: 100px;
+    height: 30px;
+    filter: invert(100%);
+    margin-left: 15px;
+}
+
+#sloganIcon {
+    width: 50px;
+    height: 30px;
+}
+
+#login {
+    color: #1ED760;
+    background-color: #000000;
+    text-decoration: none;
+    border: none;
+    margin-right: 15px;
+    margin-top: 15px;
+    font-size: 25px;
+    transition: transform 0.2s ease;
+}
+
+#cadastro {
+    color: #1ED760;
+    text-decoration: none;
+    background-color: #000000;
+    border: none;
+    margin-left: 15px;
+    margin-top: 15px;
+    font-size: 25px;
+    transition: transform 0.2s ease;
+}
+
+#login:hover {
+    border-bottom: 1px solid #1ED760;
+    background-color: #000000;
+    transform: translateY(-5px);
+    cursor: pointer;
+}
+
+#cadastro:hover {
+    border-bottom: 1px solid #1ED760;
+    background-color: #000000;
+    transform: translateY(-5px);
+    cursor: pointer;
+}

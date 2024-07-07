@@ -1,7 +1,5 @@
 import React from 'react';
-import './artistasReact.css';
-import 'https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap';
-import 'https://fonts.googleapis.com/icon?family=Material+Icons';
+import './artistasFavoritos.css';
 
 const App = () => {
   return (
@@ -17,11 +15,17 @@ const App = () => {
               Artistas
             </div>
           </div>
+          <div id="playlistDiariaBox">
+            <div id="playlistDiaria"> <i id="icones" class="material-icons">queue_music</i>Playlist Diária</div>
+          </div>
           <div id="musicasCurtidasBox">
             <div id="musicasCurtidas">
               <i id="icones" className="material-icons">favorite</i>
               Músicas Curtidas
             </div>
+          </div>
+          <div id="minhaContaBox">
+            <div id="minhaconta"> <i id="icones" class="material-icons">account_circle</i>Minha Conta</div>
           </div>
         </div>
         <div id="logoutBox">
