@@ -1,0 +1,253 @@
+.bonjovi-body {
+    margin: 0px;
+    height: 100vh;
+    font-family: "Inter", sans-serif;
+    background: linear-gradient(to top, #000000, #064754);
+    color: #FFFFFF;
+}
+
+#menuLateral {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 263px;
+    height: 100vh;
+    left: 0px;
+    top: 0px;
+    background: #000000;
+    background-repeat: no-repeat;
+}
+
+#abas{
+    margin-top: 75px;
+}
+
+#menuLateral div{
+    color: #CCC;
+}
+
+#logoBox{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+}
+
+#menuLateral #logo{
+    color: #FFF;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+#artistasBox{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    font-weight: bolder;
+    height: 40px;
+}
+
+#artistasBox:hover{
+    background-color: #181818;
+    cursor: pointer;
+}
+
+#playlistDiariaBox{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-weight: bolder;
+    height: 40px;
+}
+
+#playlistDiariaBox:hover{
+    background-color: #181818;
+    cursor: pointer;
+}
+
+#musicasCurtidasBox {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-weight: bolder;
+    height: 40px;
+}
+
+#musicasCurtidasBox:hover{
+    background-color: #181818;
+    cursor: pointer;
+}
+
+#minhacontaBox{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-weight: bolder;
+    height: 40px;
+}
+
+#minhacontaBox:hover{
+    background-color: #181818;
+    cursor: pointer;
+}
+
+#logoutBox {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 75px;
+    font-weight: bolder;
+    height: 40px;
+}
+
+#logoutBox:hover{
+    background-color: #181818;
+    cursor: pointer;
+}
+
+.main-content {
+    width: 500px;
+    height: 350px;
+    padding-top: 20px;
+    position: relative;
+    left: 350px;
+    top: 90px;
+}
+
+.playlist-header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.playlist-cover {
+    width: 160px;
+    height: 160px;
+    margin-right: 20px;
+}
+
+.playlist-info {
+    max-width: 500px;
+    position: relative;
+    left: 20px;
+}
+
+.playlist-info div{
+    margin-bottom: 5px;
+    font-weight: 600;
+    color: #FFF;
+    font-size: 12.5px;
+}
+
+.playlist-info h1 {
+    margin: 0;
+    font-size: 46px;
+}
+
+.playlist-info p {
+    margin: 10px 0 0;
+    font-size: 12.5px;
+    color: #ffffff;
+    font-weight: 600;
+}
+
+.playlist-info span{
+    color: #6a6767;
+    margin-left: 10px;
+}
+
+.playlist-songs {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    top: 35px;
+}
+
+.song {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.song-cover {
+    width: 50px;
+    height: 50px;
+    border-radius: 5px;
+    margin-right: 15px;
+}
+
+.song-info h2 {
+    margin: 0;
+    font-size: 16px;
+}
+
+.song-info {
+    font-size: 14px;
+    color: #B3B3B3;
+    display: flex;
+    flex-direction: row;
+    margin-left: 15px;
+}
+
+#icones {
+    font-size: 20px;
+    margin-right: 3.5px;
+    position: relative;
+    top: 3.5px;
+}
+
+#iconesInfo{
+    font-size: 20px;
+    margin-right: 3.5px;
+    position: relative;
+    top: 3.5px;   
+}
+
+#playIcon{
+    font-size: 50px;
+    color: #1DB954;
+}
+
+.song-atributtes{
+    display: flex;
+    flex-direction: row;
+    width: 1100px;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    top: 50px;
+    font-weight: 550;
+}
+
+.linha{
+    border-bottom: 0.5px solid; 
+    width: 1100px; 
+    position: relative;
+    top: 60px;
+    border-color:hsl(0, 0%, 100%);
+    z-index: 1;
+}
+
+.songs{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    position: relative;
+    width: 1100px;
+    height: 210px;
+    top: 75px;
+}
+
+.artist-songs{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-size: medium;
+}

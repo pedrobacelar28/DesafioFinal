@@ -194,4 +194,8 @@
     position: relative;
     top: 3.5px;
   }
+
+  #banner a{
+    text-decoration: none;
+  }
   

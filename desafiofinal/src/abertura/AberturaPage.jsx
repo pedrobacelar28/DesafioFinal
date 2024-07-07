@@ -12,7 +12,7 @@ const AberturaPage = () => {
             </div>
             <div className="box">
                 <div id="logo">
-                    iSpotify ®
+                    iSpotify®
                 </div>
             </div>
             <div className="box">
